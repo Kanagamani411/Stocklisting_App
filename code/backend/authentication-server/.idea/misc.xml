@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/../news-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../NewsappConfigServer/pom.xml" />
+        <option value="$PROJECT_DIR$/../user-profile/pom.xml" />
+        <option value="$PROJECT_DIR$/../wishlist-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../rough folder/newsapp-casestudy-master/newsapp-api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/../event-api/pom.xml" />
+        <option value="$PROJECT_DIR$/../../eventservice/pom.xml" />
+        <option value="$PROJECT_DIR$/../EventappConfigServer/pom.xml" />
+        <option value="$USER_HOME$/Videos/event-api/pom.xml" />
+        <option value="$USER_HOME$/Documents/workspace-spring-tool-suite-4-4.20.1.RELEASE/EventEurekaServiceRegistery/pom.xml" />
+        <option value="$PROJECT_DIR$/../../NewsappConfigServer/pom.xml" />
+        <option value="$PROJECT_DIR$/../../WishlistMicroservice/pom.xml" />
+        <option value="$USER_HOME$/Documents/workspace-spring-tool-suite-4-4.20.1.RELEASE/Event-ApiGateway/pom.xml" />
+        <option value="$PROJECT_DIR$/../../EventappConfigServer/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../../WishlistMicroservice/pom.xml" />
+        <option value="$PROJECT_DIR$/../../eventservice/pom.xml" />
+        <option value="$PROJECT_DIR$/../EventappConfigServer/pom.xml" />
+        <option value="$PROJECT_DIR$/../eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/../event-api/pom.xml" />
+        <option value="$PROJECT_DIR$/../news-service/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK" />
+</project>

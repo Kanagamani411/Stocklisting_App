@@ -1,0 +1,116 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: API_GATEWAY
+
+  cloud:
+    gateway:
+      routes:
+        - id: eureka-userregistration
+          uri: http://localhost:8082
+          predicates:
+            - Path=/api/v1.0/user/**
+
+        - id: eureka-userauthentication
+          uri: http://localhost:8083
+          predicates:
+            - Path=/api/v1.0/auth/**
+
+        - id: eureka-stockservice
+          uri: http://localhost:8087
+          predicates:
+            - Path=/api/v1.0/stock/**
+
+        - id: Stock-WISHLIST-SERVICE
+          uri: http://localhost:8089
+          predicates:
+            - Path=/api/v1.0/wishlist/**
+
+      default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Origin Access-Control-Allow-Credentials
+
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods: "*"
+            allowedHeaders: "*"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#server:
+#  port: 8085
+#spring:
+#  application:
+#    name: API_GATEWAY
+# 
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: eureka-userregistration
+#          uri: http://localhost:8082
+#          predicates:
+#            - Path=/api/v1/**
+#
+#        - id: eureka-userauthentication
+#          uri: http://localhost:8083
+#          predicates:
+#            - Path=/api/v1/**
+#
+#        - id: eureka-eventService
+#          uri: http://localhost:8084
+#          predicates:
+#            - Path=/api/**
+#            - Path=/event/**
+#            - Path=/performers/**
+#            - Path=/venue/**
+#        
+#        - id: eureka-wishlistService
+#          uri: http://localhost:8086
+#          predicates:
+#            - Path=/wishlist/**
+#            
+#     
+#
+#      default-filters:
+#        - DedupeResponseHeader=Access-Control-Allow-Origin Access-Controller-Allow-Credentails
+#      globalcors:
+#        cors-configurations:
+#          '[/**]':
+#            allowedOrigins: "*"
+#            allowedMethods: "*"
+#            allowedHeaders: "*"

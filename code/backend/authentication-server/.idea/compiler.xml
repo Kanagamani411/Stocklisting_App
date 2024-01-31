@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="EventEurekaServiceRegistery" />
+        <module name="NewsappConfigServer" />
+        <module name="user-profile" />
+        <module name="authentication-server" />
+        <module name="Event-ApiGateway" />
+        <module name="event-api" />
+        <module name="wishlist-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="address-service" target="17" />
+      <module name="customer-service" target="17" />
+      <module name="eureka" target="17" />
+      <module name="eureka-server" target="17" />
+      <module name="eventservice" target="17" />
+      <module name="gateway" target="17" />
+      <module name="news-service" target="17" />
+      <module name="newsapp-api-gateway" target="17" />
+      <module name="newsapp-api-gateway (1)" target="17" />
+      <module name="newsapp-api-gateway (2)" target="17" />
+      <module name="portal-service" target="17" />
+      <module name="stack_fse_bridge_mc_microservice_log-aggregator" target="1.5" />
+      <module name="stack_java_bridge_bt_sl4j_exercise" target="17" />
+      <module name="WishlistMicroservice" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Event-ApiGateway" options="-parameters" />
+      <module name="EventEurekaServiceRegistery" options="-parameters" />
+      <module name="NewsappConfigServer" options="-parameters" />
+      <module name="WishlistMicroservice" options="-parameters" />
+      <module name="address-service" options="-parameters" />
+      <module name="authentication-server" options="-parameters" />
+      <module name="customer-service" options="-parameters" />
+      <module name="eureka" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="event-api" options="-parameters" />
+      <module name="eventservice" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="news-service" options="-parameters" />
+      <module name="newsapp-api-gateway" options="-parameters" />
+      <module name="newsapp-api-gateway (1)" options="-parameters" />
+      <module name="newsapp-api-gateway (2)" options="-parameters" />
+      <module name="portal-service" options="-parameters" />
+      <module name="stack_java_bridge_bt_sl4j_exercise" options="-parameters" />
+      <module name="user-profile" options="-parameters" />
+      <module name="wishlist-service" options="-parameters" />
+    </option>
+  </component>
+</project>

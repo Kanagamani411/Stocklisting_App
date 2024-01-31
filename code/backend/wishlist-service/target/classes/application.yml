@@ -1,0 +1,15 @@
+#spring:
+  #application:
+    #name: Stock-WISHLIST-SERVICE
+  #config:
+    #import: configserver:http://localhost:8888
+  #data:
+    #mongodb:
+      #uri: mongodb://localhost:27017
+      #database: stockapp
+  #doc:
+    #swagger-ui:
+      #path: /custom-swagger-ui
+
+#server:
+  #port: 8089

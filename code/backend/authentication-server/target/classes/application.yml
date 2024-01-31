@@ -1,0 +1,28 @@
+#spring:
+#  application:
+#    name: NEWSAPP-AUTH-SERVICE
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/eventdb
+#    username: root
+#    password: root1234
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#  config:
+#    import: configserver:http://localhost:8888
+#  doc:
+#    swagger-ui:
+#      path: /swagger-ui
+#  kafka:
+#    consumer:
+#      group-id: auth-consumer
+#    bootstrap-servers: localhost:9092
+#
+#newsapp:
+#  secret: MyOwnSecret
+#
+#server:
+#  port: 8092
+#
+#

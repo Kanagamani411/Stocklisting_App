@@ -1,0 +1,13 @@
+com/stackroute/wishlistservice/repository/WishlistRepository.class
+com/stackroute/wishlistservice/controller/WishlistController.class
+com/stackroute/wishlistservice/model/WishlistStock.class
+com/stackroute/wishlistservice/config/SecurityConfig.class
+com/stackroute/wishlistservice/service/AuthenticationServerFeignClient.class
+com/stackroute/wishlistservice/filter/JwtFilter.class
+com/stackroute/wishlistservice/service/WishlistService.class
+com/stackroute/wishlistservice/config/FilterRegistrationConfig.class
+com/stackroute/wishlistservice/exception/GlobalExceptionHandler.class
+com/stackroute/wishlistservice/exception/StockAlreadyWishlisted.class
+com/stackroute/wishlistservice/exception/NoStockWishlisted.class
+com/stackroute/wishlistservice/service/WishlistServiceImpl.class
+com/stackroute/wishlistservice/WishlistServiceApplication.class

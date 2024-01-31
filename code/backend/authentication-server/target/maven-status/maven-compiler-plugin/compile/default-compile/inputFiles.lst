@@ -1,0 +1,13 @@
+/home/ubuntu/Downloads/newsapp-parent/authentication-server/src/main/java/com/newsapp/authenticationserver/AuthenticationServerApplication.java
+/home/ubuntu/Downloads/newsapp-parent/authentication-server/src/main/java/com/newsapp/authenticationserver/exception/UserNotFoundException.java
+/home/ubuntu/Downloads/newsapp-parent/authentication-server/src/main/java/com/newsapp/authenticationserver/kafka/KafkaConsumer.java
+/home/ubuntu/Downloads/newsapp-parent/authentication-server/src/main/java/com/newsapp/authenticationserver/request/LoginRequest.java
+/home/ubuntu/Downloads/newsapp-parent/authentication-server/src/main/java/com/newsapp/authenticationserver/controller/AuthenticationController.java
+/home/ubuntu/Downloads/newsapp-parent/authentication-server/src/main/java/com/newsapp/authenticationserver/response/CustomResponse.java
+/home/ubuntu/Downloads/newsapp-parent/authentication-server/src/main/java/com/newsapp/authenticationserver/service/UserServiceImpl.java
+/home/ubuntu/Downloads/newsapp-parent/authentication-server/src/main/java/com/newsapp/authenticationserver/repository/UserRepository.java
+/home/ubuntu/Downloads/newsapp-parent/authentication-server/src/main/java/com/newsapp/authenticationserver/exception/InvalidTokenException.java
+/home/ubuntu/Downloads/newsapp-parent/authentication-server/src/main/java/com/newsapp/authenticationserver/config/SecurityConfig.java
+/home/ubuntu/Downloads/newsapp-parent/authentication-server/src/main/java/com/newsapp/authenticationserver/model/User.java
+/home/ubuntu/Downloads/newsapp-parent/authentication-server/src/main/java/com/newsapp/authenticationserver/service/UserService.java
+/home/ubuntu/Downloads/newsapp-parent/authentication-server/src/main/java/com/newsapp/authenticationserver/exception/GlobalExceptionHandler.java

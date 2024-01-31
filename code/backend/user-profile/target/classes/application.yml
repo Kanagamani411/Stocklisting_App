@@ -1,0 +1,24 @@
+#spring:
+#  application:
+#    name: NEWSAPP-USER-PROFILE-SERVICE
+#  
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/eventdb
+#    username: root
+#    password: root1234
+#  jpa:
+#    defer-datasource-initialization: true
+#    hibernate:
+#      ddl-auto: update
+#      properties:
+#        dialect: org.hibernate.dialect.MySQL8Dialect
+#  doc:
+#    swagger-ui:
+#      path: /swagger-ui
+#
+#  kafka:
+#    bootstrap-servers: localhost:9092
+#
+#server:
+#  port: 8081
