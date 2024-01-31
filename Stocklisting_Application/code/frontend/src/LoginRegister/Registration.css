@@ -1,0 +1,101 @@
+
+.registration-bg {
+    /*background-image: url("../assets/images/reg.jpg");*/
+    /* background-image: url('../../assets/images/reg.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    margin-left: 0px;
+    padding: 45px;
+
+  }
+  
+  @media (min-width: 576px) {
+    .container,
+    .container-sm {
+      max-width: 100%;
+    }
+  }
+  
+  h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  padding: 20px;
+  } 
+  
+  .text-center {
+    padding: 2px;
+    text-align: center;
+    color: rgb(247, 245, 245);
+  }
+  
+  .row {
+    display: flex;
+    font-size: 10px;
+  }
+  
+  .col {
+    flex: 50%;
+    
+  }
+  
+  .col-2 {
+    flex: 20%;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  input,
+  select {
+    width:250px;
+    padding: 10px;
+    margin-top: 40px;
+    font-size: 3rem;
+    line-height: 1.5;
+    border: 1px solid #eaeef1;
+    border-radius: 0.25rem;
+
+  }
+  
+  .group {
+    color: #f7f5fa;
+    margin: 0.5rem;
+  }
+  
+  
+  button {
+    margin-top: auto;
+    margin-bottom: 25px;
+    color: #fff;
+    padding:10px;
+    border: 5px;
+    cursor: pointer;
+    border-radius: 0.5rem;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+    color:#fff;
+  }
+  
+  span {
+    color: rgb(243, 6, 6);
+    font-weight: bold;
+  }
+  
+  .btnGreen {
+    background-color: #0eb134;
+  padding:10px;
+  border-radius: 10px;
+  }
+  
+  .btnRed {
+    background-color: #e70920;
+    margin-left: 60px;
+  }
+  
+  

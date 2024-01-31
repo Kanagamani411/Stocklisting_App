@@ -1,0 +1,36 @@
+
+  /* Style for the heading */
+  h2 {
+    text-align: center;
+    color: #333; /* Adjust the color as needed */
+  }
+  
+  /* Style for the form */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Style for the form label */
+  label {
+    margin-bottom: 8px; /* Adjust the margin as needed */
+  }
+  
+ 
+  /* Style for the form button */
+  .search {
+    background-color: #007bff; /* Adjust the background color as needed */
+    color: #fff; /* Adjust the text color as needed */
+    padding: 10px 15px 10px 15px  ;
+    border: none;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+  }
+  
+  /* Style for the form button on hover */
+  .button-search:hover {
+    background-color: #0056b3; /* Adjust the hover background color as needed */
+  }

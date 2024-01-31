@@ -1,0 +1,16 @@
+h2{
+    text-align: center;
+}
+body{
+    background-image: url('../assets/images/reg.jpg');
+
+}
+p{
+    text-align: center;
+}
+
+footer{
+ text-align: center;
+ background-color: aliceblue;
+margin-top: 17%;
+}

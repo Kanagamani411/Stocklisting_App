@@ -1,0 +1,67 @@
+/* .navbar {
+  background-color: rgb(42, 133, 6);
+  padding-top: 1px;
+  padding-bottom: 0.5px;
+} */
+
+/* .navbar .navbar-expand .navbar-light{
+padding: 1px;
+} */
+/* .navbar-brand{
+
+  color:rgb(215, 233, 137);
+}
+.nav-link{
+  
+  color:rgb(215, 233, 137);
+  
+}
+
+.navbar-brand:hover{
+color: black;
+}
+.nav-link:hover{
+  color: black;
+  }
+  .navbar-text{
+    margin-left: 150px;
+    margin-right: 10px;
+    color: rgb(215, 233, 137);
+  }
+
+  .primary{
+    color: black;
+    border-radius: 5px;
+    margin-right: 10px;
+  } */
+  
+  
+
+/* Navbarapp.css */
+
+.nav {
+  height: 20px;
+  padding:25px 0px 25px 0 ;
+  
+ 
+}
+
+.custom{
+  background-color: green;
+}
+.customlogout{
+ border-radius: 10px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem; /* Adjust the font size of the brand as needed */
+}
+
+.nav-link {
+  font-size: 1.5rem; /* Adjust the font size of the links as needed */
+}
+
+.btn-outline-success {
+  font-size: 1rem; /* Adjust the font size of the button as needed */
+  margin-top: 10px; /* Adjust the top margin of the button as needed */
+}
